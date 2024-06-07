@@ -1,59 +1,186 @@
 {
-    "userLoginData":[
-        {
-            "id": 1,
-            "email": "aarnab11@gmail.com",
-            "password": "shoppingcart"
-        }
-    ],
-    "menClothing": [
-        {
-            "id":1,
-            "title":,
-            "description":,
-            "image":,
-            "price":,
-            "category":,
-        }
-    ],
-    "womenClothing": [
-        {
-            "id":1,
-            "title":,
-            "description":,
-            "image":,
-            "price":,
-            "category":,
-        }
-    ],
-    "electronics": [
-        {
-            "id":1,
-            "title":,
-            "description":,
-            "image":,
-            "price":,
-            "category":,
-        }
-    ],
-    "cosmetics": [
-        {
-            "id":1,
-            "title":,
-            "description":,
-            "image":,
-            "price":,
-            "category":,
-        }
-    ],
-    "furniture": [
-        {
-            "id":1,
-            "title":,
-            "description":,
-            "image":,
-            "price":,
-            "category":,
-        }
-    ]
+  "userLoginData": [
+    {
+      "id": 1,
+      "email": "aarnab11@gmail.com",
+      "password": "shoppingcart"
+    },
+    {
+      "email": "aarnab11@gmail.com",
+      "password": "shoppingcart",
+      "id": 2
+    },
+    {
+      "email": "aarnab11@gmail.com",
+      "password": "shoppingcart1",
+      "id": 3
+    },
+    {
+      "email": "aarnab11@gmail.com",
+      "password": "shopiingcart",
+      "id": 4
+    }
+  ],
+  "mens_Clothing": [
+    {
+      "id": 1,
+      "title": "Classic White T-Shirt",
+      "description": "A timeless white t-shirt made from 100% cotton.",
+      "price": 19.99,
+      "category": "Men's Clothing",
+      "image": "https://bandelifestyle.in/wp-content/uploads/2023/06/04.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Blue Denim Jeans",
+      "description": "Stylish blue denim jeans with a comfortable fit.",
+      "price": 49.99,
+      "category": "Men's Clothing",
+      "image": "https://img0.junaroad.com/uiproducts/18003474/zoom_1-1632540132.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Black Leather Jacket",
+      "description": "A sleek black leather jacket for a cool, edgy look.",
+      "price": 129.99,
+      "category": "Men's Clothing",
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/woTKH5/wrkr/t.resize(h:1000,w:820)/data/Superdry/28112022img/410330327001_1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Grey Hoodie",
+      "description": "A soft and warm grey hoodie, perfect for casual wear.",
+      "price": 39.99,
+      "category": "Men's Clothing",
+      "image": "https://cdn.shopify.com/s/files/1/1367/5207/files/RestDayEssentialsHoodie-LightGreyCoreMarl-A3A8Z-GBCN-03552_661eb656-df8c-4ab1-a87d-265d65a4607a.jpg?v=1692885020"
+    },
+    {
+      "id": 5,
+      "title": "Navy Blue Polo Shirt",
+      "description": "A classic navy blue polo shirt with a modern fit.",
+      "price": 29.99,
+      "category": "Men's Clothing",
+      "image": "https://image.made-in-china.com/202f0j00iUfbVLuzRgcp/Summer-Short-Sleeve-Slim-Fit-Work-Wear-T-Shirt-Navy-Blue-Plain-Rich-and-Soft-Polyester-Fabric-Mixed-Color-Men-Contrast-Trim-Polo-Shirt.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Khaki Chinos",
+      "description": "Versatile khaki chinos for a smart-casual look.",
+      "price": 44.99,
+      "category": "Men's Clothing",
+      "image": "https://www.bombayshirts.com/cdn/shop/files/1.Midshot2.jpg?v=1715941652"
+    },
+    {
+      "id": 7,
+      "title": "Black Suit Blazer",
+      "description": "A sharp black suit blazer for formal occasions.",
+      "price": 199.99,
+      "category": "Men's Clothing",
+      "image": "https://www.snitch.co.in/cdn/shop/files/4MBZ0010-01.jpg?v=1712406446"
+    },
+    {
+      "id": 8,
+      "title": "White Dress Shirt",
+      "description": "A crisp white dress shirt made from high-quality fabric.",
+      "price": 34.99,
+      "category": "Men's Clothing",
+      "image": "https://tailoredathlete.co.uk/cdn/shop/files/dressshirtwhite-5_1200x.jpg?v=1705582543"
+    },
+    {
+      "id": 9,
+      "title": "Green Cargo Pants",
+      "description": "Durable green cargo pants with multiple pockets.",
+      "price": 54.99,
+      "category": "Men's Clothing",
+      "image": "https://cdn.pixelspray.io/v2/black-bread-289bfa/woTKH5/wrkr/t.resize(h:1000,w:820)/data/Superdry/14092023/410408515016_1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Black V-Neck Sweater",
+      "description": "A classic black V-neck sweater made from soft wool.",
+      "price": 49.99,
+      "category": "Men's Clothing",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/kve530w0/sweater/v/n/f/m-men-s-multi-colored-v-neck-and-comfortable-winter-wear-black-original-imag8a79fnjtnzyt.jpeg?q=90&crop=false"
+    },
+    {
+      "id": 11,
+      "title": "Blue Striped Shirt",
+      "description": "A blue striped shirt, perfect for both casual and formal wear.",
+      "price": 27.99,
+      "category": "Men's Clothing",
+      "image": "https://www.snitch.co.in/cdn/shop/products/Lazar_Oct17593.jpg?v=1667198421"
+    },
+    {
+      "id": 12,
+      "title": "Grey Sweatpants",
+      "description": "Comfortable grey sweatpants for lounging or exercising.",
+      "price": 29.99,
+      "category": "Men's Clothing",
+      "image": "https://i.pinimg.com/736x/a5/67/82/a5678243bd3d1b736a15bf0084c72d9f.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Red Plaid Flannel Shirt",
+      "description": "A cozy red plaid flannel shirt for a rugged look.",
+      "price": 34.99,
+      "category": "Men's Clothing",
+      "image": "https://m.media-amazon.com/images/I/71SCbG8coQL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Black Athletic Shorts",
+      "description": "Lightweight black athletic shorts for sports or workouts.",
+      "price": 24.99,
+      "category": "Men's Clothing",
+      "image": "https://fitinc.in/cdn/shop/products/5_01164fda-356c-4224-9202-2fb672ff2901_800x.jpg?v=1677645929"
+    },
+    {
+      "id": 15,
+      "title": "White Graphic T-Shirt",
+      "description": "A trendy white t-shirt with a unique graphic design.",
+      "price": 21.99,
+      "category": "Men's Clothing",
+      "image": "https://www.snitch.co.in/cdn/shop/files/4de76c2a12e7c477c3a235b459ab095c.webp?v=1714809704&width=1080"
+    },
+    {
+      "id": 16,
+      "title": "Beige Trench Coat",
+      "description": "A stylish beige trench coat for a classic look.",
+      "price": 149.99,
+      "category": "Men's Clothing",
+      "image": "https://www.hollomen.com/cdn/shop/products/beige-trench-coat-622676.jpg?v=1693387629"
+    },
+    {
+      "id": 17,
+      "title": "Navy Blue Sweater",
+      "description": "A warm navy blue sweater made from a wool blend.",
+      "price": 59.99,
+      "category": "Men's Clothing",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220729/nrh1/62e40b24aeb26921afacd29f/-1117Wx1400H-441142909-navy-MODEL.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Black Dress Pants",
+      "description": "Elegant black dress pants for formal or professional settings.",
+      "price": 69.99,
+      "category": "Men's Clothing",
+      "image": "https://www.truwear.com/cdn/shop/files/p_e91ce4d9-1168-4e21-8bc8-d8b03f749eaa.png?v=1710871104"
+    },
+    {
+      "id": 19,
+      "title": "Brown Leather Belt",
+      "description": "A durable brown leather belt with a silver buckle.",
+      "price": 19.99,
+      "category": "Men's Clothing",
+      "image": "https://blackberrys.com/cdn/shop/files/leather-belt-in-brown-santiago-blackberrys-clothing-4.jpg?v=1685953131"
+    },
+    {
+      "id": 20,
+      "title": "Black Beanie Hat",
+      "description": "A warm black beanie hat, perfect for cold weather.",
+      "price": 14.99,
+      "category": "Men's Clothing",
+      "image": "https://freecultr.com/cdn/shop/files/Binnis_05_3d92064b-35cd-4cdb-aa4f-84b6ed110073.jpg?v=1702740487"
+    }
+  ]
 }
