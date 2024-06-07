@@ -1,0 +1,59 @@
+{
+    "userLoginData":[
+        {
+            "id": 1,
+            "email": "aarnab11@gmail.com",
+            "password": "shoppingcart"
+        }
+    ],
+    "menClothing": [
+        {
+            "id":1,
+            "title":,
+            "description":,
+            "image":,
+            "price":,
+            "category":,
+        }
+    ],
+    "womenClothing": [
+        {
+            "id":1,
+            "title":,
+            "description":,
+            "image":,
+            "price":,
+            "category":,
+        }
+    ],
+    "electronics": [
+        {
+            "id":1,
+            "title":,
+            "description":,
+            "image":,
+            "price":,
+            "category":,
+        }
+    ],
+    "cosmetics": [
+        {
+            "id":1,
+            "title":,
+            "description":,
+            "image":,
+            "price":,
+            "category":,
+        }
+    ],
+    "furniture": [
+        {
+            "id":1,
+            "title":,
+            "description":,
+            "image":,
+            "price":,
+            "category":,
+        }
+    ]
+}
