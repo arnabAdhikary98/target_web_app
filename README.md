@@ -2,6 +2,9 @@
 
 TARGET is a web application built using React.js, Axios, Chakra UI, and JSON Server. It provides functionality for user authentication, dynamic routing, and interaction with a mock backend.
 
+## Web App Deployed Link
+- https://targetclone.netlify.app/
+
 ## Features
 
 - **Authentication**: Users can login and logout using their credentials.
