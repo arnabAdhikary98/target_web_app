@@ -2,7 +2,6 @@ import { Link as ReactRouterLink, Navigate} from "react-router-dom"
 import { Flex, Link as ChakraLink, Button, Input, InputGroup, InputRightElement} from "@chakra-ui/react"
 import { SearchIcon } from "@chakra-ui/icons"
 import { useNavigate } from 'react-router-dom'
-import { AuthContext } from "../context/AuthContext"
 
 const links = [
     {

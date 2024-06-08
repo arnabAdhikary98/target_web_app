@@ -4,7 +4,7 @@ import {
     CardHeader, 
     CardBody, 
     CardFooter,     
-    StackDivider,
+    Flex,
     Stack,
     Heading,
     Text,
@@ -13,36 +13,55 @@ import {
     Icon
 } from '@chakra-ui/react'
 
-export default function TicketCard({title, image, description, price}){
+export default function ProductCard({title, image, description, price}){
 
-    return(
-        <Card >
-            <CardHeader maxW='sm'>
-                <Image h='400px' w='100%' src={image}  borderRadius='lg' />
-                <Heading size='s'> { title } </Heading>
+    return (
+        <Card maxW='280px' borderWidth='0' borderRadius='lg' overflow='hidden' boxShadow='md'>
+            <CardHeader>
+                <Box h='200px' position='relative'>
+                    <Image 
+                        src={image}
+                        alt={title}
+                        h='100%'
+                        w='100%'
+                        objectFit='cover'
+                        position='absolute'
+                        top='0'
+                        left='0'
+                    />
+                </Box>
+                <Heading mt='3' size='sm' textAlign='center'>
+                    {title}
+                </Heading>
             </CardHeader>
             <CardBody>
-                <Stack divider={<StackDivider />} spacing='4'>
-                <Box>
-                    <Heading size='xs' textTransform='uppercase'>
-                    Description
-                    </Heading>
-                    <Text pt='2' fontSize='sm'>
-                    { description }
-                    </Text>
-                </Box>
-                <Box>
-                    <Heading size='xs' textTransform='uppercase'>
-                    Price
-                    </Heading>
-                    <Text pt='4' fontSize='sm'><span>&#36;</span> { price }</Text>
-                </Box>
+                <Stack spacing='3'>
+                    <Box>
+                        <Text fontSize='sm'>{description}</Text>
+                    </Box>
+                    <Box>
+                        <Heading size='xs' textTransform='uppercase'>
+                            Price
+                        </Heading>
+                        <Text fontSize='sm' fontWeight='bold'>
+                            ${price}
+                        </Text>
+                    </Box>
                 </Stack>
             </CardBody>
-            <CardFooter>
-                <Button variant='outline' colorScheme='orange'>
-                    Add to Cart
+            <CardFooter display='flex' flexDirection="column" justifyContent='space-between' alignItems='center' p='5'>
+                <Button variant='solid' colorScheme='blue' size='sm' w="95%">
+                    View Item
                 </Button>
+                <br />
+                <Flex justify="space-evenly" w="100%">
+                    <Button variant='outline' colorScheme='orange' size='sm' w='45%'>
+                        Add to Cart
+                    </Button>
+                    <Button variant='solid' colorScheme='orange' size='sm' w='45%'>
+                        Buy Now
+                    </Button>
+                </Flex>
             </CardFooter>
         </Card>
     )

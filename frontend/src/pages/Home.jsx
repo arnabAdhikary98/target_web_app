@@ -16,21 +16,12 @@ export default function Home(){
     const [loading, setLoading] = useState(false)
     const [products, setProducts] = useState([])
     const [error, setError] = useState(false)
-    const [sortOrderValue, setSortOrderValue] = useState("")
 
     async function fetchAndUpdateData(sortOrderValue){
         try {
-            let queryParams = {}
-
-            if (sortOrderValue) {
-                queryParams._sort = "priority"
-                queryParams._order = sortOrderValue
-            }
-
             let res = await axios({
                 method : "get",
                 url: `http://localhost:3000/mens_Clothing`,
-                params : queryParams
             })
 
             let data = res?.data
@@ -45,8 +36,8 @@ export default function Home(){
 
 
     useEffect(()=>{
-        fetchAndUpdateData(sortOrderValue)
-    },[sortOrderValue])
+        fetchAndUpdateData()
+    },[])
 
     if (loading){
         return (<LoadingIndicator />)
@@ -58,8 +49,8 @@ export default function Home(){
 
     return(
         <Container maxW="container.xl">
-                <HStack spacing={4} my={4} >
-                    <SimpleGrid columns={{base: 1, md: 2, lg: 3}} spacing={10} >
+                <HStack  spacing={4} my={4}>
+                    <SimpleGrid spacing={6} p={5} columns={{base: 1, sm: 2, md: 3, lg: 4}} >
                     {products?.map((product)=>(
                         <ProductCard {...product} key={product.id} />
                     ))}

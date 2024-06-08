@@ -4,21 +4,6 @@
       "id": 1,
       "email": "aarnab11@gmail.com",
       "password": "shoppingcart"
-    },
-    {
-      "email": "aarnab11@gmail.com",
-      "password": "shoppingcart",
-      "id": 2
-    },
-    {
-      "email": "aarnab11@gmail.com",
-      "password": "shoppingcart1",
-      "id": 3
-    },
-    {
-      "email": "aarnab11@gmail.com",
-      "password": "shopiingcart",
-      "id": 4
     }
   ],
   "mens_Clothing": [
@@ -181,6 +166,1140 @@
       "price": 14.99,
       "category": "Men's Clothing",
       "image": "https://freecultr.com/cdn/shop/files/Binnis_05_3d92064b-35cd-4cdb-aa4f-84b6ed110073.jpg?v=1702740487"
+    }
+  ],
+  "womens_fashion": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Flowy Summer Dress",
+      "description": "Light and breezy dress perfect for summer outings.",
+      "category": "Womens Fashion",
+      "price": 39.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Classic Denim Jacket",
+      "description": "Timeless denim jacket with a modern twist.",
+      "category": "Womens Fashion",
+      "price": 59.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Black Leather Handbag",
+      "description": "Elegant black leather handbag for everyday use.",
+      "category": "Womens Fashion",
+      "price": 79.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Printed Scarf",
+      "description": "Colorful scarf to accessorize any outfit.",
+      "category": "Womens Fashion",
+      "price": 19.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "High-Waisted Skinny Jeans",
+      "description": "Figure-flattering jeans for a sleek silhouette.",
+      "category": "Womens Fashion",
+      "price": 49.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Casual Sneakers",
+      "description": "Comfortable sneakers for everyday wear.",
+      "category": "Womens Fashion",
+      "price": 34.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Striped Cotton T-shirt",
+      "description": "Soft and breathable t-shirt with a classic stripe pattern.",
+      "category": "Womens Fashion",
+      "price": 24.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Bohemian Maxi Skirt",
+      "description": "Flowing maxi skirt with bohemian prints.",
+      "category": "Womens Fashion",
+      "price": 54.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Statement Necklace",
+      "description": "Bold necklace to make a fashion statement.",
+      "category": "Womens Fashion",
+      "price": 29.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Ankle Boots",
+      "description": "Stylish ankle boots for any occasion.",
+      "category": "Womens Fashion",
+      "price": 69.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Structured Blazer",
+      "description": "Tailored blazer for a polished look.",
+      "category": "Womens Fashion",
+      "price": 89.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Patterned Silk Scarf",
+      "description": "Luxurious silk scarf with intricate patterns.",
+      "category": "Womens Fashion",
+      "price": 49.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Wide Brim Sun Hat",
+      "description": "Chic sun hat for sun protection with style.",
+      "category": "Womens Fashion",
+      "price": 19.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Lace Evening Gown",
+      "description": "Elegant lace gown for special occasions.",
+      "category": "Womens Fashion",
+      "price": 149.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Leather Belt",
+      "description": "Versatile leather belt to cinch any outfit.",
+      "category": "Womens Fashion",
+      "price": 39.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Ruffled Blouse",
+      "description": "Feminine blouse with delicate ruffles.",
+      "category": "Womens Fashion",
+      "price": 29.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Crossbody Bag",
+      "description": "Compact crossbody bag for hands-free convenience.",
+      "category": "Womens Fashion",
+      "price": 49.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Printed Jumpsuit",
+      "description": "Stylish jumpsuit with trendy prints.",
+      "category": "Womens Fashion",
+      "price": 79.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Diamond Stud Earrings",
+      "description": "Timeless diamond stud earrings for everyday elegance.",
+      "category": "Womens Fashion",
+      "price": 199.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Pleated Midi Skirt",
+      "description": "Graceful midi skirt with pleats for a sophisticated look.",
+      "category": "Womens Fashion",
+      "price": 59.99
+    }
+  ],
+  "kids_fashion": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Kids' Graphic T-shirt",
+      "description": "Colorful and fun graphic t-shirt for kids.",
+      "category": "Kids Clothing",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Girls' Floral Dress",
+      "description": "Pretty floral dress for girls.",
+      "category": "Kids Clothing",
+      "price": 24.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Boys' Cargo Shorts",
+      "description": "Comfortable cargo shorts for boys.",
+      "category": "Kids Clothing",
+      "price": 16.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Girls' Denim Jacket",
+      "description": "Stylish denim jacket for girls.",
+      "category": "Kids Clothing",
+      "price": 29.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Boys' Printed T-shirt",
+      "description": "Cool printed t-shirt for boys.",
+      "category": "Kids Clothing",
+      "price": 14.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Kids' Sneakers",
+      "description": "Casual and comfortable sneakers for kids.",
+      "category": "Kids Clothing",
+      "price": 29.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Girls' Sequin Skirt",
+      "description": "Sparkly sequin skirt for girls.",
+      "category": "Kids Clothing",
+      "price": 19.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Boys' Hooded Sweatshirt",
+      "description": "Warm and cozy hooded sweatshirt for boys.",
+      "category": "Kids Clothing",
+      "price": 22.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Kids' Backpack",
+      "description": "Durable backpack for kids to carry their essentials.",
+      "category": "Kids Clothing",
+      "price": 34.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Boys' Swim Shorts",
+      "description": "Fun and functional swim shorts for boys.",
+      "category": "Kids Clothing",
+      "price": 18.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Girls' Leggings",
+      "description": "Soft and stretchy leggings for girls.",
+      "category": "Kids Clothing",
+      "price": 12.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Boys' Plaid Shirt",
+      "description": "Classic plaid shirt for boys.",
+      "category": "Kids Clothing",
+      "price": 24.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Kids' Raincoat",
+      "description": "Waterproof raincoat to keep kids dry in rainy weather.",
+      "category": "Kids Clothing",
+      "price": 39.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Girls' Unicorn Pajamas",
+      "description": "Magical unicorn-themed pajamas for girls.",
+      "category": "Kids Clothing",
+      "price": 16.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Boys' Baseball Cap",
+      "description": "Cool baseball cap for boys.",
+      "category": "Kids Clothing",
+      "price": 9.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Kids' Sunglasses",
+      "description": "UV-protected sunglasses for kids.",
+      "category": "Kids Clothing",
+      "price": 14.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Girls' Ballet Flats",
+      "description": "Pretty ballet flats for girls.",
+      "category": "Kids Clothing",
+      "price": 24.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Boys' Dinosaur T-shirt",
+      "description": "Dinosaur-themed t-shirt for boys.",
+      "category": "Kids Clothing",
+      "price": 14.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Girls' Backpack",
+      "description": "Stylish backpack for girls.",
+      "category": "Kids Clothing",
+      "price": 29.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Boys' Cargo Pants",
+      "description": "Versatile cargo pants for boys.",
+      "category": "Kids Clothing",
+      "price": 26.99
+    }
+  ],
+  "home_decor": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Modern Geometric Rug",
+      "description": "Contemporary rug with geometric patterns for your living room.",
+      "category": "Home Decor",
+      "price": 149.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Ceramic Vase Set",
+      "description": "Set of three ceramic vases in assorted sizes and colors.",
+      "category": "Home Decor",
+      "price": 49.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Decorative Throw Pillows",
+      "description": "Set of two plush throw pillows with decorative patterns.",
+      "category": "Home Decor",
+      "price": 29.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Wall Art Prints",
+      "description": "Set of three framed art prints for adding color to your walls.",
+      "category": "Home Decor",
+      "price": 79.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Antique Brass Table Lamp",
+      "description": "Vintage-inspired table lamp with an antique brass finish.",
+      "category": "Home Decor",
+      "price": 89.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Cozy Knit Throw Blanket",
+      "description": "Soft and cozy throw blanket perfect for chilly evenings.",
+      "category": "Home Decor",
+      "price": 39.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Floating Wall Shelves",
+      "description": "Set of three floating shelves for displaying books, plants, or decor.",
+      "category": "Home Decor",
+      "price": 54.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Velvet Accent Chair",
+      "description": "Luxurious velvet accent chair in a vibrant color.",
+      "category": "Home Decor",
+      "price": 199.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Marble Coasters",
+      "description": "Set of four marble coasters with gold accents.",
+      "category": "Home Decor",
+      "price": 24.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Framed Wall Mirror",
+      "description": "Elegant framed wall mirror for hallway or bedroom.",
+      "category": "Home Decor",
+      "price": 129.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Indoor Plant Pot",
+      "description": "Modern ceramic pot for indoor plants.",
+      "category": "Home Decor",
+      "price": 19.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Decorative Metal Wall Art",
+      "description": "Abstract metal wall art sculpture for contemporary decor.",
+      "category": "Home Decor",
+      "price": 149.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Scented Soy Candle",
+      "description": "Hand-poured soy wax candle with a relaxing scent.",
+      "category": "Home Decor",
+      "price": 12.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Woven Storage Basket",
+      "description": "Stylish woven basket for organizing blankets or magazines.",
+      "category": "Home Decor",
+      "price": 34.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Cotton Throw Pillow Covers",
+      "description": "Set of four cotton pillow covers in assorted colors.",
+      "category": "Home Decor",
+      "price": 19.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Rustic Wood Wall Clock",
+      "description": "Large wooden wall clock with a rustic finish.",
+      "category": "Home Decor",
+      "price": 49.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Velvet Cushion Cover",
+      "description": "Soft velvet cushion cover for adding texture to your sofa.",
+      "category": "Home Decor",
+      "price": 14.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Vintage Glass Perfume Bottle",
+      "description": "Antique-inspired glass perfume bottle for vanity display.",
+      "category": "Home Decor",
+      "price": 29.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Linen Table Runner",
+      "description": "Natural linen table runner for dining table decoration.",
+      "category": "Home Decor",
+      "price": 17.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Decorative Ceramic Bowl",
+      "description": "Handcrafted ceramic bowl with intricate patterns.",
+      "category": "Home Decor",
+      "price": 39.99
+    }
+  ],
+  "electronics_appliances": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Smart TV",
+      "description": "55-inch smart TV with 4K Ultra HD resolution and built-in streaming apps.",
+      "category": "Electronics Appliances",
+      "price": 699.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Wireless Bluetooth Earbuds",
+      "description": "True wireless earbuds with noise cancellation and long battery life.",
+      "category": "Electronics Appliances",
+      "price": 129.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Robotic Vacuum Cleaner",
+      "description": "Smart robotic vacuum cleaner with mapping technology and self-charging capability.",
+      "category": "Electronics Appliances",
+      "price": 299.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Air Purifier",
+      "description": "HEPA air purifier with ionizer and multiple fan speeds for cleaner indoor air.",
+      "category": "Electronics Appliances",
+      "price": 179.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Smart Home Security Camera",
+      "description": "HD security camera with motion detection and two-way audio.",
+      "category": "Electronics Appliances",
+      "price": 89.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Countertop Microwave Oven",
+      "description": "Compact microwave oven with multiple cooking presets and easy-to-clean interior.",
+      "category": "Electronics Appliances",
+      "price": 99.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Portable Bluetooth Speaker",
+      "description": "Waterproof portable Bluetooth speaker with 20W output and long battery life.",
+      "category": "Electronics Appliances",
+      "price": 59.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Electric Pressure Cooker",
+      "description": "6-quart electric pressure cooker with multiple cooking modes and safety features.",
+      "category": "Electronics Appliances",
+      "price": 79.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Cordless Vacuum Cleaner",
+      "description": "Lightweight cordless vacuum cleaner with strong suction and HEPA filtration.",
+      "category": "Electronics Appliances",
+      "price": 149.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Smart Thermostat",
+      "description": "Wi-Fi enabled smart thermostat with energy-saving features and remote control.",
+      "category": "Electronics Appliances",
+      "price": 129.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Drip Coffee Maker",
+      "description": "Programmable drip coffee maker with brew strength control and 12-cup capacity.",
+      "category": "Electronics Appliances",
+      "price": 49.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Smart Doorbell",
+      "description": "Video doorbell with HD camera, motion detection, and two-way audio.",
+      "category": "Electronics Appliances",
+      "price": 179.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Wireless Charging Pad",
+      "description": "Fast wireless charging pad compatible with Qi-enabled smartphones.",
+      "category": "Electronics Appliances",
+      "price": 29.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Handheld Vacuum Cleaner",
+      "description": "Handheld vacuum cleaner with powerful suction and easy-empty dust cup.",
+      "category": "Electronics Appliances",
+      "price": 69.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Smart Scale",
+      "description": "Digital smart scale with app connectivity for tracking weight and body metrics.",
+      "category": "Electronics Appliances",
+      "price": 39.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Electric Kettle",
+      "description": "Stainless steel electric kettle with fast boil and automatic shut-off.",
+      "category": "Electronics Appliances",
+      "price": 34.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Smart Plug",
+      "description": "Wi-Fi smart plug for controlling devices remotely via smartphone app.",
+      "category": "Electronics Appliances",
+      "price": 19.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Bluetooth Soundbar",
+      "description": "Slim Bluetooth soundbar for enhancing TV audio or music playback.",
+      "category": "Electronics Appliances",
+      "price": 129.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Portable Air Conditioner",
+      "description": "Portable air conditioner with remote control and adjustable thermostat.",
+      "category": "Electronics Appliances",
+      "price": 299.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Robot Lawn Mower",
+      "description": "Automated robot lawn mower for maintaining a neat lawn without manual effort.",
+      "category": "Electronics Appliances",
+      "price": 599.99
+    }
+  ],
+  "health_store": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Multivitamin Tablets",
+      "description": "Daily multivitamin tablets with essential nutrients and minerals.",
+      "category": "Health Store",
+      "price": 14.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Protein Powder",
+      "description": "Whey protein powder for muscle recovery and growth.",
+      "category": "Health Store",
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Omega-3 Fish Oil Capsules",
+      "description": "Fish oil capsules rich in Omega-3 fatty acids for heart health.",
+      "category": "Health Store",
+      "price": 19.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Organic Green Tea",
+      "description": "Organic green tea leaves with antioxidant properties.",
+      "category": "Health Store",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Collagen Peptides Powder",
+      "description": "Collagen peptides powder for skin elasticity and joint health.",
+      "category": "Health Store",
+      "price": 24.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Vitamin C Supplements",
+      "description": "Vitamin C chewable tablets for immune support.",
+      "category": "Health Store",
+      "price": 12.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Herbal Sleep Aid",
+      "description": "Natural herbal supplement for promoting restful sleep.",
+      "category": "Health Store",
+      "price": 17.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Digestive Enzyme Capsules",
+      "description": "Digestive enzyme capsules for better digestion and nutrient absorption.",
+      "category": "Health Store",
+      "price": 21.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Plant-Based Protein Bars",
+      "description": "Plant-based protein bars with natural ingredients for on-the-go nutrition.",
+      "category": "Health Store",
+      "price": 19.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Magnesium Supplements",
+      "description": "Magnesium capsules for muscle relaxation and stress relief.",
+      "category": "Health Store",
+      "price": 15.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Herbal Immune Support",
+      "description": "Herbal blend capsules to support a healthy immune system.",
+      "category": "Health Store",
+      "price": 16.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Aloe Vera Gel",
+      "description": "Pure aloe vera gel for soothing sunburns and skin irritation.",
+      "category": "Health Store",
+      "price": 8.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Turmeric Curcumin Capsules",
+      "description": "Turmeric curcumin capsules with black pepper extract for joint health.",
+      "category": "Health Store",
+      "price": 18.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Essential Oil Diffuser",
+      "description": "Ultrasonic essential oil diffuser for aromatherapy and relaxation.",
+      "category": "Health Store",
+      "price": 29.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Electrolyte Powder",
+      "description": "Electrolyte drink powder for hydration and replenishment of minerals.",
+      "category": "Health Store",
+      "price": 11.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Joint Support Supplements",
+      "description": "Supplements with glucosamine and chondroitin for joint health.",
+      "category": "Health Store",
+      "price": 22.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Probiotic Supplements",
+      "description": "Probiotic capsules for gut health and digestive balance.",
+      "category": "Health Store",
+      "price": 13.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Coenzyme Q10 (CoQ10) Supplements",
+      "description": "Coenzyme Q10 capsules for heart health and energy production.",
+      "category": "Health Store",
+      "price": 27.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Natural Fiber Supplements",
+      "description": "Fiber supplements for digestive health and regularity.",
+      "category": "Health Store",
+      "price": 9.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Melatonin Tablets",
+      "description": "Melatonin tablets for promoting healthy sleep patterns.",
+      "category": "Health Store",
+      "price": 7.99
+    }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Mid-Century Modern Sofa",
+      "description": "Stylish mid-century modern sofa with tufted upholstery and wooden legs.",
+      "category": "Furniture Goods",
+      "price": 899.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Queen Size Bed Frame",
+      "description": "Solid wood queen size bed frame with headboard and platform design.",
+      "category": "Furniture Goods",
+      "price": 699.99
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Dining Table Set",
+      "description": "Rectangular dining table with four chairs, ideal for small spaces.",
+      "category": "Furniture Goods",
+      "price": 499.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Leather Recliner Chair",
+      "description": "Comfortable leather recliner chair with manual recline mechanism.",
+      "category": "Furniture Goods",
+      "price": 399.99
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Coffee Table",
+      "description": "Round coffee table with metal frame and tempered glass top.",
+      "category": "Furniture Goods",
+      "price": 149.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Bookshelf",
+      "description": "Tall bookshelf with adjustable shelves for storing books and decor items.",
+      "category": "Furniture Goods",
+      "price": 179.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Office Desk",
+      "description": "Modern office desk with storage drawers and sturdy construction.",
+      "category": "Furniture Goods",
+      "price": 249.99
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Accent Armchair",
+      "description": "Upholstered accent armchair with decorative nailhead trim.",
+      "category": "Furniture Goods",
+      "price": 299.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Storage Ottoman",
+      "description": "Square storage ottoman with hinged lid for storing blankets or magazines.",
+      "category": "Furniture Goods",
+      "price": 129.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Bar Stools",
+      "description": "Set of two adjustable height bar stools with swivel seats.",
+      "category": "Furniture Goods",
+      "price": 119.99
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "TV Stand",
+      "description": "Media console TV stand with open shelves and cable management.",
+      "category": "Furniture Goods",
+      "price": 179.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Entryway Bench",
+      "description": "Wooden entryway bench with shoe storage compartments.",
+      "category": "Furniture Goods",
+      "price": 159.99
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Garden Patio Set",
+      "description": "Outdoor patio set with table and chairs, weather-resistant materials.",
+      "category": "Furniture Goods",
+      "price": 799.99
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Wall Mounted Shelves",
+      "description": "Set of three floating wall shelves for displaying photos or books.",
+      "category": "Furniture Goods",
+      "price": 59.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Folding Chairs",
+      "description": "Set of four lightweight folding chairs for extra seating.",
+      "category": "Furniture Goods",
+      "price": 89.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Kitchen Cart",
+      "description": "Portable kitchen cart with butcher block top and storage shelves.",
+      "category": "Furniture Goods",
+      "price": 139.99
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Bedside Table",
+      "description": "Nightstand with drawer and open shelf for bedroom essentials.",
+      "category": "Furniture Goods",
+      "price": 79.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Cabinet Organizer",
+      "description": "Bathroom cabinet organizer with adjustable shelves and mirrored door.",
+      "category": "Furniture Goods",
+      "price": 109.99
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Standing Floor Lamp",
+      "description": "Tall standing floor lamp with fabric shade and adjustable neck.",
+      "category": "Furniture Goods",
+      "price": 49.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Console Table",
+      "description": "Narrow console table with two drawers and decorative metal legs.",
+      "category": "Furniture Goods",
+      "price": 199.99
+    }
+  ],
+  "grocery_store": [
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Organic Avocados",
+      "description": "Fresh organic avocados, rich in healthy fats and essential nutrients.",
+      "category": "Grocery Store",
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Whole Grain Bread",
+      "description": "Whole grain bread made with natural ingredients and no preservatives.",
+      "category": "Grocery Store",
+      "price": 3.49
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Farm Fresh Eggs",
+      "description": "Farm fresh eggs from cage-free chickens, high in protein and vitamins.",
+      "category": "Grocery Store",
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Organic Kale",
+      "description": "Organic kale, packed with vitamins, minerals, and antioxidants.",
+      "category": "Grocery Store",
+      "price": 2.49
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Greek Yogurt",
+      "description": "Creamy Greek yogurt with live cultures, perfect for breakfast or snacks.",
+      "category": "Grocery Store",
+      "price": 4.99
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Fresh Strawberries",
+      "description": "Sweet and juicy fresh strawberries, great for desserts and smoothies.",
+      "category": "Grocery Store",
+      "price": 3.99
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Almond Milk",
+      "description": "Non-dairy almond milk, rich in calcium and low in calories.",
+      "category": "Grocery Store",
+      "price": 2.79
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Wild-Caught Salmon Fillet",
+      "description": "Wild-caught salmon fillet, high in omega-3 fatty acids and protein.",
+      "category": "Grocery Store",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Quinoa",
+      "description": "Organic quinoa, a versatile whole grain with high protein content.",
+      "category": "Grocery Store",
+      "price": 5.99
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Extra Virgin Olive Oil",
+      "description": "Cold-pressed extra virgin olive oil, ideal for cooking and salad dressings.",
+      "category": "Grocery Store",
+      "price": 7.49
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Raw Honey",
+      "description": "Raw organic honey, packed with natural enzymes and antioxidants.",
+      "category": "Grocery Store",
+      "price": 6.99
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Fresh Spinach",
+      "description": "Fresh spinach leaves, great for salads, smoothies, and cooking.",
+      "category": "Grocery Store",
+      "price": 1.79
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Brown Rice",
+      "description": "Whole grain brown rice, rich in fiber and essential nutrients.",
+      "category": "Grocery Store",
+      "price": 3.29
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Organic Black Beans",
+      "description": "Canned organic black beans, a good source of plant-based protein and fiber.",
+      "category": "Grocery Store",
+      "price": 1.99
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Cage-Free Chicken Breast",
+      "description": "Cage-free chicken breast, lean protein option for various recipes.",
+      "category": "Grocery Store",
+      "price": 8.99
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/image16.jpg",
+      "title": "Organic Tomatoes",
+      "description": "Organic vine-ripened tomatoes, perfect for salads, sauces, and sandwiches.",
+      "category": "Grocery Store",
+      "price": 2.49
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/image17.jpg",
+      "title": "Whole Wheat Pasta",
+      "description": "Whole wheat pasta made from durum wheat semolina, high in fiber.",
+      "category": "Grocery Store",
+      "price": 1.99
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/image18.jpg",
+      "title": "Organic Apples",
+      "description": "Fresh organic apples, crisp and flavorful for snacking or baking.",
+      "category": "Grocery Store",
+      "price": 3.49
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/image19.jpg",
+      "title": "Coconut Water",
+      "description": "Natural coconut water with electrolytes, refreshing and hydrating.",
+      "category": "Grocery Store",
+      "price": 2.99
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/image20.jpg",
+      "title": "Organic Baby Spinach",
+      "description": "Organic baby spinach leaves, tender and nutrient-rich for salads and smoothies.",
+      "category": "Grocery Store",
+      "price": 4.49
     }
   ]
 }
