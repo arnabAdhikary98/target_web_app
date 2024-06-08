@@ -15,7 +15,7 @@ export function AuthContextProvider({ children }){
         })
     }
 
-    const logout = (token) => {
+    const logout = () => {
         setAuthDetails({
             isLoggedIn: false,
             token: null

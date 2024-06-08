@@ -63,7 +63,7 @@ export default function ProductView() {
     const { title, image, description, price } = product;
 
     return (
-        <Flex direction="column" align="center" justify="center" minH="100vh" p={4}>
+        <Flex direction="column" align="center" justify="center" minH="100vh" p={4} pt="80px">
             <Card 
                 w="100%" 
                 maxW="1200px"

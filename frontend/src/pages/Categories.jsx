@@ -5,7 +5,7 @@ let Categories = () =>{
     const navigate = useNavigate()
 
     return(
-        <SimpleGrid spacing={6} p={5} columns={{base: 1, sm: 2, md: 3, lg: 4}}>
+        <SimpleGrid spacing={6} p={5} columns={{base: 1, sm: 2, md: 3, lg: 4}} pt="100px">
             <Card
             p={2} 
             bgImage="url('https://img.freepik.com/free-photo/young-handsome-man-choosing-clothes-shop_1303-19720.jpg')" 

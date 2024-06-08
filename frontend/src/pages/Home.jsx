@@ -18,6 +18,7 @@ export default function Home(){
     const [error, setError] = useState(false)
 
     async function fetchAndUpdateData(sortOrderValue){
+        setLoading(true)
         try {
             let res = await axios({
                 method : "get",
@@ -48,7 +49,7 @@ export default function Home(){
     }
 
     return(
-        <Container maxW="container.xl">
+        <Container maxW="container.xl"pt="50px">
                 <HStack  spacing={4} my={4}>
                     <SimpleGrid spacing={6} p={5} columns={{base: 1, sm: 2, md: 3, lg: 4}} >
                     {products?.map((product)=>(

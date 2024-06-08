@@ -30,15 +30,36 @@ export default function Login(){
         return <Navigate to="/" />
     } 
 
-    return(
-        <Container maxW="md" mt="20">
+    return (
+        <Container maxW="md" mt="20" p={8} boxShadow="lg" borderRadius="md" bg="white">
             <VStack spacing={7}>
-                <Heading as="h1" size="xl">User Login</Heading>
+                <Heading as="h1" size="xl" textAlign="center">User Login</Heading>
 
-                <Input placeholder="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                <Input placeholder="Password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                <Input
+                    placeholder="Email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    variant="outline"
+                    focusBorderColor="blue.500"
+                />
+                <Input
+                    placeholder="Password"
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    variant="outline"
+                    focusBorderColor="blue.500"
+                />
 
-                <Button variant="outline" colorScheme='blue' onClick={handleClick} >Login</Button>
+                <Button
+                    variant="solid"
+                    colorScheme='blue'
+                    onClick={handleClick}
+                    w="100%"
+                >
+                    Login
+                </Button>
             </VStack>
         </Container>
     )

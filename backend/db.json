@@ -4,6 +4,11 @@
       "id": 1,
       "email": "aarnab11@gmail.com",
       "password": "shoppingcart"
+    },
+    {
+      "email": "aarnab11@gmail.com",
+      "password": "shoppicart",
+      "id": 2
     }
   ],
   "mens_clothing": [

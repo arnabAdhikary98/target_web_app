@@ -2,6 +2,8 @@ import { Link as ReactRouterLink, Navigate} from "react-router-dom"
 import { Flex, Link as ChakraLink, Button, Input, InputGroup, InputRightElement} from "@chakra-ui/react"
 import { SearchIcon } from "@chakra-ui/icons"
 import { useNavigate } from 'react-router-dom'
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 const links = [
     {
@@ -27,22 +29,32 @@ const links = [
 ]
 
 export default function Navbar(){
+    const { authDetails, logout } = useContext(AuthContext)
     const navigate = useNavigate()
 
-    let handleClick = () =>{
-        navigate("/login")
+    const handleAuthClick = () => {
+        if (authDetails.isLoggedIn) {
+            logout();
+        } else {
+            navigate("/login");
+        }
     }
 
     return(
         <Flex
-        w="100vw" 
+        position="fixed" /* Fixed position */
+        top="0" /* Stick to the top */
+        left="0"
+        right="0"
+        zIndex="999" /* Ensure it's above other content */
+        w="100vw"
         p="5"
         background="white"
         justify="space-around"
         align="center"
         fontWeight="600"
         boxShadow='md'
-        rounded='md' 
+        rounded='md'
         bg='white'
         >
         {links?.map((link)=>(
@@ -60,7 +72,7 @@ export default function Navbar(){
                 <SearchIcon color='green.900' />
             </InputRightElement>
         </InputGroup>
-        <Button variant="solid" colorScheme="blue" onClick={handleClick} >LOGIN</Button>
+        <Button variant="solid" colorScheme="blue" onClick={handleAuthClick} > {authDetails.isLoggedIn ? "LOGOUT" : "LOGIN"} </Button>
         </Flex>
     )
 }
