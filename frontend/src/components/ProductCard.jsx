@@ -9,11 +9,12 @@ import {
     Heading,
     Text,
     Button,
-    Image,
-    Icon
-} from '@chakra-ui/react'
+    Image
+} from '@chakra-ui/react';
+import { useNavigate } from 'react-router-dom';
 
-export default function ProductCard({title, image, description, price}){
+export default function ProductCard({ id, title, image, description, price, category }) {
+    const navigate = useNavigate();
 
     return (
         <Card maxW='280px' borderWidth='0' borderRadius='lg' overflow='hidden' boxShadow='md'>
@@ -50,11 +51,17 @@ export default function ProductCard({title, image, description, price}){
                 </Stack>
             </CardBody>
             <CardFooter display='flex' flexDirection="column" justifyContent='space-between' alignItems='center' p='5'>
-                <Button variant='solid' colorScheme='blue' size='sm' w="95%">
+                <Button 
+                    variant='solid' 
+                    colorScheme='blue' 
+                    size='sm' 
+                    w="95%" 
+                    onClick={() => navigate(`/${category}/view/${id}`)}
+                >
                     View Item
                 </Button>
-                <br />
-                <Flex justify="space-evenly" w="100%">
+                <Box my={2}></Box>
+                <Flex justify="space-between" w="100%">
                     <Button variant='outline' colorScheme='orange' size='sm' w='45%'>
                         Add to Cart
                     </Button>
@@ -64,5 +71,5 @@ export default function ProductCard({title, image, description, price}){
                 </Flex>
             </CardFooter>
         </Card>
-    )
+    );
 }

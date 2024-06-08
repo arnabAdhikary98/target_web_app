@@ -21,7 +21,7 @@ let Categories = () =>{
                     <Text >Upgrade your look with the latest in men's fashion, from sleek suits to casual essentials.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='red' onClick={()=> navigate("/mens_clothiong")}>View here</Button>
+                    <Button colorScheme='red' onClick={()=> navigate("/mens_clothing")}>View here</Button>
                 </CardFooter>
             </Card>
             <Card
@@ -38,7 +38,7 @@ let Categories = () =>{
                     <Text>Turn heads with trendy dresses, chic tops, and stylish accessories.</Text>
                 </CardBody>
                 <CardFooter>
-                    <Button colorScheme='red' onClick={()=> navigate("/womens_clothiong")}>View here</Button>
+                    <Button colorScheme='red' onClick={()=> navigate("/womens_clothing")}>View here</Button>
                 </CardFooter>
             </Card>
             <Card

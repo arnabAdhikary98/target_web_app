@@ -21,7 +21,7 @@ export default function Home(){
         try {
             let res = await axios({
                 method : "get",
-                url: `http://localhost:3000/mens_Clothing`,
+                url: `http://localhost:3000/mens_clothing`,
             })
 
             let data = res?.data
