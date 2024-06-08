@@ -8,7 +8,7 @@ import { AuthContext } from "../context/AuthContext";
 const links = [
     {
         to: "/",
-        label: "Home"
+        label: "TARGET"
     },
     {
         to: "/categories",
@@ -42,11 +42,11 @@ export default function Navbar(){
 
     return(
         <Flex
-        position="fixed" /* Fixed position */
-        top="0" /* Stick to the top */
+        position="fixed"
+        top="0"
         left="0"
         right="0"
-        zIndex="999" /* Ensure it's above other content */
+        zIndex="999"
         w="100vw"
         p="5"
         background="white"
