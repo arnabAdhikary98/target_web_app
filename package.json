@@ -1,0 +1,19 @@
+{
+  "name": "target_web_app",
+  "version": "1.0.0",
+  "description": "TARGET web application with React frontend and JSON Server backend",  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm run build",
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:server": "cd backend && npm run dev",
+    "dev:client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "deploy": "npm run install-deps && npm run build && npm start",
+    "test:frontend": "cd frontend && npm test",
+    "test:frontend:coverage": "cd frontend && npm run test:coverage",
+    "test:all": "npm run test:frontend"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

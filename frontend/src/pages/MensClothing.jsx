@@ -9,19 +9,19 @@ import axios from "axios"
 import LoadingIndicator from "../components/LoadingIndicator"
 import ErrorIndicator from "../components/ErrorIndicator"
 import ProductCard from "../components/ProductCard"
+import { API_CONFIG } from "../config"
 
 
 export default function MensClothing(){
-    const navigate = useNavigate()
-    const [loading, setLoading] = useState(false)
-    const [products, setProducts] = useState([])
-    const [error, setError] = useState(false)
-
-    async function fetchAndUpdateData(){
+    const navigate = useNavigate();    const [loading, setLoading] = useState(false);
+    const [products, setProducts] = useState([]);
+    const [error, setError] = useState(false);
+    
+    async function fetchAndUpdateData() {
         try {
             let res = await axios({
                 method : "get",
-                url: `http://localhost:3000/mens_clothing`,
+                url: `${API_CONFIG.baseURL}/mens_clothing`,
             })
 
             let data = res?.data

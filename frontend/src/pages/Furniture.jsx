@@ -9,6 +9,7 @@ import axios from "axios"
 import LoadingIndicator from "../components/LoadingIndicator"
 import ErrorIndicator from "../components/ErrorIndicator"
 import ProductCard from "../components/ProductCard"
+import { API_CONFIG } from "../config"
 
 
 export default function Furniture(){
@@ -18,10 +19,9 @@ export default function Furniture(){
     const [error, setError] = useState(false)
 
     async function fetchAndUpdateData(){
-        try {
-            let res = await axios({
+        try {            let res = await axios({
                 method : "get",
-                url: `http://localhost:3000/furniture`,
+                url: `${API_CONFIG.baseURL}/furniture`,
             })
 
             let data = res?.data

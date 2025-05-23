@@ -9,6 +9,7 @@ import axios from "axios"
 import LoadingIndicator from "../components/LoadingIndicator"
 import ErrorIndicator from "../components/ErrorIndicator"
 import ProductCard from "../components/ProductCard"
+import { API_CONFIG } from "../config"
 
 
 export default function Grocery(){
@@ -18,10 +19,9 @@ export default function Grocery(){
     const [error, setError] = useState(false)
 
     async function fetchAndUpdateData(){
-        try {
-            let res = await axios({
+        try {            let res = await axios({
                 method : "get",
-                url: `http://localhost:3000/grocery_store`,
+                url: `${API_CONFIG.baseURL}/grocery_store`,
             })
 
             let data = res?.data

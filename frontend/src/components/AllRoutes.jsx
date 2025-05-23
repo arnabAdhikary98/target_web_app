@@ -28,7 +28,7 @@ export default function AllRoutes(){
             <Route path="/mens_clothing" element={<MensClothing />} />
             <Route path="/womens_clothing" element={<WomensClothing />} />
             <Route path="/kids_section" element={<KidSection />} />
-            <Route path="//home_decor" element={<HomeDecor />} />
+            <Route path="/home_decor" element={<HomeDecor />} />
             <Route path="/electronics" element={<Electronics />} />
             <Route path="/health_store" element={<HealthStore />} />
             <Route path="/furniture" element={<Furniture />} />

@@ -3,18 +3,18 @@ import { useContext, useState } from "react"
 import axios from "axios"
 import { Navigate } from "react-router-dom"
 import { AuthContext } from "../context/AuthContext"
+import { API_CONFIG } from "../config"
 
 export default function Login(){
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState("");    const [password, setPassword] = useState("");
 
-    const { login, authDetails: { isLoggedIn } } = useContext(AuthContext)
-
-    async function handleClick(){
+    const { login, authDetails: { isLoggedIn } } = useContext(AuthContext);
+    
+    async function handleClick() {
         try {
             let res = await axios({
                 method: "post",
-                url: "http://localhost:3000/userLoginData",
+                url: `${API_CONFIG.baseURL}/userLoginData`,
                 data: {
                     email,
                     password,

@@ -9,6 +9,7 @@ import axios from "axios"
 import LoadingIndicator from "../components/LoadingIndicator"
 import ErrorIndicator from "../components/ErrorIndicator"
 import ProductCard from "../components/ProductCard"
+import { API_CONFIG } from "../config"
 
 
 export default function WomensClothing(){
@@ -18,10 +19,9 @@ export default function WomensClothing(){
     const [error, setError] = useState(false)
 
     async function fetchAndUpdateData(){
-        try {
-            let res = await axios({
+        try {            let res = await axios({
                 method : "get",
-                url: `http://localhost:3000/womens_fashion`,
+                url: `${API_CONFIG.baseURL}/womens_fashion`,
             })
 
             let data = res?.data
