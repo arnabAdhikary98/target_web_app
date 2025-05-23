@@ -6,13 +6,19 @@ const cors = require('cors');
 // Create the server
 const server = jsonServer.create();
 
+// Set up CORS
+server.use(cors());
+
 // Set default middlewares (logger, static, cors and no-cache)
 const middlewares = jsonServer.defaults({
-  static: path.join(__dirname, 'public')
+  static: path.join(__dirname, '../frontend/dist')
 });
 
 // Set up the JSON Server router
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
+
+// Serve static files from the React frontend app
+server.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 const port = process.env.PORT || 8080;
 
@@ -47,17 +53,12 @@ server.use(cors());
 // Use JSON Server middlewares
 server.use(middlewares);
 
-// Direct API routes (without /api prefix for now)
-server.use(router);
+// Use the router
+server.use('/api', router);
 
-// Serve static files from the frontend build
-server.use(express.static(path.join(__dirname, '../frontend/dist')));
-
-// Handle client-side routing by serving index.html for all non-api routes
+// Serve the React app for any other routes
 server.get('*', (req, res) => {
-  if (!req.path.startsWith('/api')) {
-    res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-  }
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
 });
 
 // Handle graceful shutdown
