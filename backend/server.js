@@ -6,19 +6,28 @@ const cors = require('cors');
 // Create the server
 const server = jsonServer.create();
 
-// Set up CORS
-server.use(cors());
+// Enable CORS with specific options
+server.use(cors({
+  origin: process.env.NODE_ENV === 'production' 
+    ? ['https://your-app-name.onrender.com', /\.onrender\.com$/]
+    : 'http://localhost:3000',
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+}));
 
 // Set default middlewares (logger, static, cors and no-cache)
 const middlewares = jsonServer.defaults({
   static: path.join(__dirname, '../frontend/dist')
 });
 
-// Set up the JSON Server router
+// Set up the JSON Server router with absolute path
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
 
 // Serve static files from the React frontend app
 server.use(express.static(path.join(__dirname, '../frontend/dist')));
+
+// Serve backend assets
+server.use('/backend-assets', express.static(path.join(__dirname, 'assets')));
 
 const port = process.env.PORT || 8080;
 
@@ -50,11 +59,21 @@ server.use((err, req, res, next) => {
 // Enable CORS for all origins in development
 server.use(cors());
 
+// Parse JSON payloads
+server.use(express.json());
+
 // Use JSON Server middlewares
 server.use(middlewares);
 
-// Use the router
-server.use('/api', router);
+// Handle API routes first
+server.use('/api', (req, res, next) => {
+  // Remove /api prefix from the URL
+  req.url = req.url.replace(/^\/api/, '');
+  router(req, res, next);
+});
+
+// Serve static files from the React app
+server.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 // Serve the React app for any other routes
 server.get('*', (req, res) => {
