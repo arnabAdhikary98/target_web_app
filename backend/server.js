@@ -2,9 +2,18 @@ const jsonServer = require('json-server');
 const path = require('path');
 const express = require('express');
 const cors = require('cors');
+
+// Create the server
 const server = jsonServer.create();
+
+// Set default middlewares (logger, static, cors and no-cache)
+const middlewares = jsonServer.defaults({
+  static: path.join(__dirname, 'public')
+});
+
+// Set up the JSON Server router
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
-const middlewares = jsonServer.defaults();
+
 const port = process.env.PORT || 8080;
 
 // Function to find an available port
