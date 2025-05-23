@@ -15,6 +15,14 @@ server.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }));
 
+// Add debug logging in production
+if (process.env.NODE_ENV === 'production') {
+  server.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
+    next();
+  });
+}
+
 // Set default middlewares (logger, static, cors and no-cache)
 const middlewares = jsonServer.defaults({
   static: path.join(__dirname, '../frontend/dist')
