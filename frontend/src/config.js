@@ -7,8 +7,9 @@ export const API_URL = isDevelopment
 
 export const API_CONFIG = {
     baseURL: API_URL,
-    timeout: 15000, // Increased timeout for production
+    timeout: 30000, // Increased timeout for production
     headers: {
         'Content-Type': 'application/json'
-    }
+    },
+    withCredentials: true
 };
