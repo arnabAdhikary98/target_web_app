@@ -4,7 +4,7 @@
   "description": "TARGET web application with React frontend and JSON Server backend",
   "scripts": {
     "start": "node backend/server.js",
-    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "build": "node build.js",
     "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install",
     "dev:server": "cd backend && npm run dev",
     "dev:client": "cd frontend && npm run dev",

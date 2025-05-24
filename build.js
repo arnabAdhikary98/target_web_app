@@ -1,21 +1,33 @@
-# This is a Node.js script to handle the build process
+// Build script for Target Web App
 const { execSync } = require('child_process');
-const path = require('path');
+
+// Helper function to execute commands
+function runCommand(command) {
+    try {
+        execSync(command, {
+            stdio: 'inherit',
+            shell: true
+        });
+    } catch (error) {
+        console.error(`Failed to execute ${command}`, error);
+        process.exit(1);
+    }
+}
 
 console.log('🚀 Starting build process...');
 
 try {
-    // Navigate to frontend directory and install dependencies
-    console.log('📦 Installing frontend dependencies...');
-    execSync('cd frontend && npm install', { stdio: 'inherit' });
+    // Install root dependencies
+    console.log('📦 Installing root dependencies...');
+    runCommand('npm install');
 
     // Build frontend
     console.log('🏗️ Building frontend...');
-    execSync('cd frontend && npm run build', { stdio: 'inherit' });
+    runCommand('cd frontend && npm install && npm run build');
 
-    // Navigate to backend directory and install dependencies
+    // Install backend dependencies
     console.log('📦 Installing backend dependencies...');
-    execSync('cd backend && npm install', { stdio: 'inherit' });
+    runCommand('cd backend && npm install');
 
     console.log('✅ Build completed successfully!');
 } catch (error) {
